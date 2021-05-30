@@ -1,5 +1,4 @@
-// JavaScript //
-
+/* Mehmet Hüseyin Delipalta */
 const form = document.querySelector('form');
 const input = document.querySelector('#yorumYeniYorum');
 const buttonTumYorumlariSil = document.querySelector('#buttonTumYorumlariSil');
@@ -35,7 +34,6 @@ function addNewItem(e) {
     li.appendChild(a);
     li.appendChild(h5);
 
-
     taskList.appendChild(li);
 
     input.value = '';
@@ -53,7 +51,6 @@ function deleteItem(e) {
 
 function deleteAllItems(e) {
     if (confirm('Tüm Yorumlar silinecek ! İşleme devam etmek istediğinize emin misiniz?')) {
-        // taskList.innerHTML = '';
         taskList.childNodes.forEach(function (item) {
             if (item.nodeType === 1) {
                 item.remove();
@@ -63,8 +60,6 @@ function deleteAllItems(e) {
     e.preventDefault();
 }
 
-
-/* Demo purposes only */
 $(".hover").mouseleave(
     function () {
         $(this).removeClass("hover");
