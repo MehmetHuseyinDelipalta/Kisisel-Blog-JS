@@ -34,31 +34,31 @@ footer {
 
 @media screen and (max-width: 540px) {
   * {
-      font-size: 10px;
+    font-size: 10px;
   }
 
   .list-group-img {
-      max-width: 30px;
+    max-width: 30px;
   }
 }
 
 @media screen and (min-width: 540px) and (max-width: 720px) {
   * {
-      font-size: 12px;
+    font-size: 12px;
   }
 
   .list-group-img {
-      max-width: 40px;
+    max-width: 40px;
   }
 }
 
 @media screen and (min-width: 720px) and (max-width: 960px) {
   * {
-      font-size: 14px;
+    font-size: 14px;
   }
 
   .list-group-img {
-      max-width: 50px;
+    max-width: 50px;
   }
 }
 
@@ -221,6 +221,7 @@ css {
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
 .snip1344 {
   font-family: 'Open Sans', Arial, sans-serif;
   position: relative;
