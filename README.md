@@ -1,2 +1,2 @@
-# Kişisel Blog Demosudur
-Kişisel olarak kullanılacak blog demosudur.
+# JavaScrip Kişisel Blog Demosudur
+Kişisel blog olarak kullanılebilecek projedir.
