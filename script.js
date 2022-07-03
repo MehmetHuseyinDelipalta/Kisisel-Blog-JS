@@ -8,9 +8,7 @@ eventListeners();
 
 function eventListeners() {
     form.addEventListener('submit', addNewItem);
-
     taskList.addEventListener('click', deleteItem);
-
     buttonTumYorumlariSil.addEventListener('click', deleteAllItems);
 }
 
@@ -35,9 +33,7 @@ function addNewItem(e) {
     li.appendChild(h5);
 
     taskList.appendChild(li);
-
     input.value = '';
-
     e.preventDefault();
 }
 

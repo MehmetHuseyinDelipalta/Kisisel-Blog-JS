@@ -64,7 +64,7 @@ footer {
 
 .buttonYonlendirmeler {
   border-radius: 6px;
-  background-color: #F8F9FA;
+  background-color: #f8f9fa;
   border: none;
   color: #000000;
   text-align: center;
@@ -84,7 +84,7 @@ footer {
 }
 
 .buttonYonlendirmeler span:after {
-  content: '\00bb';
+  content: "\00bb";
   position: absolute;
   opacity: 0;
   top: 0;
@@ -128,14 +128,14 @@ footer {
   margin-left: -20px !important;
   margin-top: -120%;
   opacity: 0;
-  transition: all 0.8s
+  transition: all 0.8s;
 }
 
 .buttonGonder:active:after {
   padding: 0;
   margin: 0;
   opacity: 1;
-  transition: 0s
+  transition: 0s;
 }
 
 * {
@@ -188,18 +188,17 @@ css {
   display: inline-block;
   border-radius: 3px;
   margin-left: 5px;
-  margin-right: 5px
+  margin-right: 5px;
 }
 
 #shape {
   stroke-width: 4px;
   fill: transparent;
-  stroke: #009FFD;
+  stroke: #009ffd;
   stroke-dasharray: 85 400;
   stroke-dashoffset: -220;
   transition: 1s all ease;
 }
-
 
 #text {
   text-align: center;
@@ -216,14 +215,14 @@ css {
   stroke-dasharray: 50 0;
   stroke-width: 3px;
   stroke-dashoffset: 0;
-  stroke: #06D6A0;
+  stroke: #06d6a0;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 
 .snip1344 {
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   position: relative;
   overflow: hidden;
   margin: 10px;
